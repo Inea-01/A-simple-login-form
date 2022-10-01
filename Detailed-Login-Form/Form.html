@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b8ad9db662.js" crossorigin="anonymous"></script>
+    <title>FORM</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Register here</h2>
+        <form action="results.html">
+            <div class="semi-container">
+                <label for="name"><i class="fa-solid fa-user"></i> Name</label>
+                <input type="text" id="name" autocomplete="off" required>
+            </div>
+            <div class="semi-container">
+                <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                <input type="email" id="email" autocomplete="off" required>
+            </div>
+            <div class="semi-container">
+                <label for="number"><i class="fas fa-phone-square-alt"></i> Phone No.</label>
+                <input type="tel" id="number" autocomplete="off" required>
+            </div>
+            <div class="semi-container">
+                <label for="password"><i class="fa-solid fa-lock"></i> Password</label>
+                <input type="password" id="password" autocomplete="off" required>
+            </div>
+            <div class="semi-container">
+                <label for="comments"><i class="fas fa-comments"></i> Comments</label>
+                <textarea name="comments" id="comments" rows="10"></textarea>
+            </div>
+            <div class="btn">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <p>Already have an account?<a href="#"> Log in with:</a></p>
+        <div class="icons">
+            <a href="twitter.com"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="google.com"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="skype.com"><ion-icon name="logo-skype"></ion-icon></a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

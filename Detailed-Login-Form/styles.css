@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(pic22.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h2{
+    margin: 20px;
+    color: rgb(255, 255, 255, 1);
+    font-family: 'poppins' sans-serif;
+    font-size: 3em;
+}
+.container{
+    background: rgba(255,255,255,.3);
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+}
+form{
+    width: 80%;
+}
+.semi-container{
+    width: 100%;
+    height: 3vh;
+    position: relative;
+    margin: 30px;
+    margin-left: 0;
+}
+input{
+    width: 100%;
+    height: 4vh;
+    background: transparent;
+    border-style: none; 
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    font-family: 'poppins' sans-serif;
+    color: whitesmoke;
+    padding-left: 10px;
+}
+label{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: text;
+    font-weight: bold;
+    transition: .2s ease;
+}
+input:focus~label,
+input:valid~label{
+    top: -35px;
+    font-size: 7px;
+}
+textarea{
+    width: 100%;
+    height: 10vh;
+    background: transparent;
+    border-style: none;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'poppins' sans-serif;
+    color: whitesmoke;
+}
+button{
+    color: rgb(255, 255, 255);
+    font-family: 'poppins';
+    background: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-style: none;
+    box-shadow: none;
+    border-radius: 3%;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.btn{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.btn :hover{
+    transform:scale(1.1);
+}
+.container p{
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    margin: 20px;
+    font-weight: bold;
+}
+.container a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.icons a{
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    margin-right: 20px;
+    transition: 3s ease;
+    cursor: pointer;
+    font-size: 30px;
+}
+.icons a :hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+}
+.icons{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
